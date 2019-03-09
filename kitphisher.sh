@@ -63,7 +63,7 @@ pkg install python2 -y
 pkg install wget -y
 pkg install curl -y
 pkg install php -y
-https://github.com/foxlitegor/fisher
+git clone https://github.com/foxlitegor/fisher
 cd $HOME
 cd fisher
 chmod 777 install.sh
