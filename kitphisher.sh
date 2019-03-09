@@ -39,7 +39,8 @@ pkg install curl -y
 git clone https://github.com/thelinuxchoice/shellphish
 cd $HOME
 cd shellphish
-bash shellphish.sh ;;
+bash shellphish.sh
+break ;;
 
 #функция установки weeman
 2) cd $HOME
@@ -51,7 +52,8 @@ apt install python2 -y
 git clone https://github.com/evait-security/weeman 
 cd $HOME
 cd weeman
-python2 weeman.py ;;
+python2 weeman.py
+break ;;
 
 #функция установки фишера
 3) cd $HOME
@@ -69,7 +71,8 @@ cd fisher
 chmod 777 install.sh
 sh install.sh
 fish
-run ;;
+run
+break ;;
 
 #функция выхода из скрипта
 4) break ;;
