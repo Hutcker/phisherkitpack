@@ -3,6 +3,12 @@
 
 УСТАНОВКА:
 
+apt update
+
+apt upgrade -y
+
+apt install git -y
+
 git clone https://github.com/Hutcker/phisherkitpack.git
 
 cd phisherkitpack
