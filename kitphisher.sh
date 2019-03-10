@@ -50,7 +50,7 @@ apt upgrade -y
 apt install -y
 apt install git -y
 apt install python2 -y 
-git clone https://github.com/evait-security/weeman 
+git clone https://github.com/evait-security/weeman
 cd $HOME
 cd weeman
 python2 weeman.py
