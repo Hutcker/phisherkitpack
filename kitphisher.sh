@@ -52,7 +52,9 @@ apt install git -y
 apt install python2 -y 
 git clone https://github.com/evait-security/weeman
 cd $HOME
+chmod +x weeman
 cd weeman
+chmod +x weeman.py
 python2 weeman.py
 break ;;
 
